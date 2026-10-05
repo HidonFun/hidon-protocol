@@ -1,0 +1,14 @@
+{
+  "name": "hidon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hidon: a commit-and-reveal protocol on Robinhood Chain. Static site.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "gates": "node scripts/gates.mjs",
+    "serve": "node scripts/serve.mjs"
+  }
+}
